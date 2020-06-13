@@ -1,0 +1,75 @@
+body {
+	margin: 0px;
+	font-family: 'Architects Daughter', cursive;
+	background-color: #f5d9d5;
+
+}
+
+.cont {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 3rem;
+}
+
+
+
+img {
+	width: 400px;
+	height: 400px;
+	margin: 10px;
+	transition: all 0.5s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+.navbar {
+    font-weight: 100;
+}
+
+.navbar .navbar-brand {
+    color: #ea1c2c;
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #ea1c2c;
+}
+
+#headinggroup span {
+    color: #ea1c2c;
+}
+
+#headinggroup h2 {
+    font-size: 3rem;
+}
+
+
+
+#h2font h2{
+    font-size: 2.5rem;
+    color: #ea1c2c;
+}
+#h2font p{
+    font-size: 1.2rem;
+    color: #f498b8;
+}
+
+.content {
+    margin-top: 90px;
+}
+
+.navbar {
+    background-color: rgb(222,192,222);
+}
+
+@media (max-width: 800px){
+    h2 {
+        font-weight: 100;
+        font-size: 1.5rem;
+    }
+}
